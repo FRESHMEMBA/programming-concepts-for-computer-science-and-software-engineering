@@ -4,6 +4,15 @@ Welcome to **Programming Concepts for Computer Science and Software Engineering*
 
 This repository is a collection of notes, code examples, and exercises I created while studying core software engineering and computer science concepts.
 
+## 📑 Table of Contents
+- [Why This Repo Exists](#why-this-repo-exists)
+- [Topics Covered](#-topics-covered)
+- [Languages Used](#-languages-used)
+- [Requirements](#️-requirements)
+- [Contribution Guidelines](#-contribution-guidelines)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+
 ## Why This Repo Exists
 
 After years of learning programming languages directly, I realized that focusing solely on syntax wasn’t the most effective way to grow as a software engineer. I discovered that understanding **concepts** — and applying those concepts using different languages — is what builds true engineering skill.
