@@ -6,49 +6,209 @@
 
 ### C
 
-```C
-//Prints 'Hello World!' on the screen
+```c
+// Prints 'Hello World!' on the screen
 ```
-> This is a comment. It simply explains what the program does and is ignored when the program runs.
+> **Comment**: Explains what the program does. Comments are ignored by the compiler.
 
-```C
-#include <stdio>
+```c
+#include <stdio.h>
 ```
-> This is called a pre-processor directive and what it does it loads the file 'stdio.h' into the program.
-> The program needs to import this file in order to use the function 'printf'.
+> **Preprocessor Directive**: Loads the header file `stdio.h` so you can use `printf()` and other input/output functions.
 
-```C
+```c
 int main()
-'''
-> This is the entry point of the program (you will notice that all the other languages, except Python, have 'main' or 'Main' somewhere in the code.
-> This is a function (we will discuss what these are in detail later). For now, it suffices to know that a function:
-- completes a task
-- display something on the screen and/or
-- return a value (sometimes it doesn't)
-> 'int' stands for integer, which is basically the type of value to be returned by the function 'main'.
+```
+> **Main Function**: Entry point of every C program.  
+> - A *function* completes a task and can return a value.  
+> - `int` means `main` will return an integer value to the operating system.
+> - () means the function takes no arguments.
 
-```C
+```c
 {
 ```
-> This is the opening brace of the body of the function ('main' in this case)
+> **Opening Brace**: Starts the body of the `main` function.
 
-'''C
+```c
 printf("Hello World!");
-'''
-> 'printf' is a function predefined in 'stdio', which basically takes text enclosed in double quotes and prints it on the screen.
+```
+> **Printing to Screen**: `printf()` from `stdio.h` prints the text inside the quotes.
 
-'''C
+```c
 return 0;
-'''
-> This is the exit point of the function 'main' and 0 means that the program ran successfully (no errors).
-> if a nonzero number is returned by main, it means that the program encounterd errors.
+```
+> **Return Statement**: Ends the `main` function; `0` signals success.
 
-```C
+```c
 }
-'''
-> This is the closing brace of the body of the function ('main' in this case).
+```
+> **Closing Brace**: Ends the `main` function.
 
-Note: all statements in C must end with a semicolon (;).
+---
+
+### C++
+
+```cpp
+// Prints 'Hello World!' on the screen
+```
+> **Comment**: Same as C.
+
+```cpp
+#include <iostream>
+```
+> **Header File**: Loads the input/output stream library.
+
+```cpp
+int main()
+```
+> **Main Function**: Entry point of the program.
+> **Arguments**: The empty braces () mean that 'main' takes no arguments (we will explain later what these are). Sometimes 'does' take arguments (as we'll see later).
+
+```cpp
+{
+```
+> **Opening Brace**: Starts the `main` function body.
+
+```cpp
+std::cout << "Hello World!";
+```
+> **Output Statement**: Uses `std::cout` and the insertion operator `<<` to print text.
+
+```cpp
+return 0;
+```
+> **Return Statement**: Indicates successful program completion.
+
+```cpp
+}
+```
+> **Closing Brace**: Ends the `main` function.
+
+---
+
+### C#
+
+```csharp
+// Prints 'Hello World!' on the screen
+```
+> **Comment**: Same as C/C++.
+
+```csharp
+using System;
+```
+> **Using Directive**: Imports the `System` namespace for `Console`.
+
+```csharp
+namespace HelloWorld
+```
+> **Namespace**: Groups related code.
+
+```csharp
+{
+```
+> **Opening Brace**: Starts the namespace block.
+
+```csharp
+class Program
+```
+> **Class Declaration**: All C# programs are inside classes.
+
+```csharp
+{
+```
+> **Opening Brace**: Starts the class block.
+
+```csharp
+public static void Main(string[] args)
+```
+> **Main Method**: Entry point of a C# console app.
+
+```csharp
+{
+```
+> **Opening Brace**: Starts the `Main` method body.
+
+```csharp
+Console.Write("Hello World!");
+```
+> **Output Statement**: Prints text using `Console.Write`.
+
+```csharp
+}
+```
+> **Closing Brace**: Ends the `Main` method.
+
+```csharp
+}
+```
+> **Closing Brace**: Ends the `Program` class.
+
+```csharp
+}
+```
+> **Closing Brace**: Ends the `HelloWorld` namespace.
+
+---
+
+### Java
+
+```java
+// Prints 'Hello World!' on the screen
+```
+> **Comment**: Explains the program.
+
+```java
+public class HelloWorld
+```
+> **Class Declaration**: Java programs must have a class matching the filename.
+
+```java
+{
+```
+> **Opening Brace**: Starts the class body.
+
+```java
+public static void main(String[] args)
+```
+> **Main Method**: Entry point of Java applications.
+
+```java
+{
+```
+> **Opening Brace**: Starts the `main` method body.
+
+```java
+System.out.print("Hello World!");
+```
+> **Output Statement**: Prints text to the console.
+
+```java
+}
+```
+> **Closing Brace**: Ends the `main` method.
+
+```java
+}
+```
+> **Closing Brace**: Ends the `HelloWorld` class.
+
+---
+
+> **Note**: All statements in C, C++, C#, and Java must end with a semicolon (`;`).
+
+### Python
+
+```python
+# Prints 'Hello World!' on the screen
+```
+> **Comment**: In Python, comments start with `#`.
+
+```python
+print("Hello World!")
+```
+> **Output Statement**: Calls the built-in `print()` function.
+
+> **Note**: Python executes code directly from the first line; no explicit `main` is required for simple scripts.
 
 ---
 
@@ -69,11 +229,11 @@ This is a classic starting point for learning any programming language or unders
 
 | Language | File             | How to Run                                  |
 |----------|------------------|---------------------------------------------|
-| C        | `hello_world.c`  | `gcc hello_world.c -o hello && ./hello`    |
-| C++      | `hello_world.cpp`| `g++ hello_world.cpp -o hello && ./hello`  |
-| C#       | `hello_world.cs` | `dotnet new console -o HelloWorld` → Replace `Program.cs` → `dotnet run` |
+| C        | `HelloWorld.c`  | `gcc hello_world.c -o hello && ./hello`    |
+| C++      | `HelloWorld.cpp`| `g++ hello_world.cpp -o hello && ./hello`  |
+| C#       | `HelloWorld.cs` | `dotnet new console -o HelloWorld` → Replace `Program.cs` → `dotnet run` |
 | Java     | `HelloWorld.java`| `javac HelloWorld.java && java HelloWorld` |
-| Python   | `hello_world.py` | `python hello_world.py`                    |
+| Python   | `HelloWorld.py` | `python hello_world.py`                    |
 
 ---
 
