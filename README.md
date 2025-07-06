@@ -56,6 +56,19 @@ Concepts will be demonstrated in multiple programming languages to illustrate di
 
 ---
 
+## ⚙️ Requirements
+
+Software required to run the code in this repo:
+
+- A C/C++ compiler: [mingw](https://sourceforge.net/projects/mingw/). Here is a [https://youtu.be/-KayVZq1a58?si=jrnrxd5KkpQH5LK5](video) on how to install MinGW.
+- Java Development Kit: [JDK](https://www.oracle.com/java/technologies/downloads/#jdk24-windows). Here is a [video](https://youtu.be/fuXTyRRge3s?si=E5j7YxRx9p8DZXxV) on how to install the JDK.
+- .NET Software Development Kit (for C#): [.NET](https://dotnet.microsoft.com/en-us/download). Here is a [video](https://youtu.be/onxL5AohWXQ) on how to install the .NET SDK.
+- Python: [python](https://www.python.org/downloads). Here is a [video](https://youtu.be/NES0LRUFMBE?si=UbPPznJs536YZHjn) on how to install python.
+
+I recommend installing VS Code and the necessary extensions for C/C++, C#, Java, and Python. This will make it easier to view, edit, and run code on a single "unified" platform. Click [here](https://code.visualstudio.com/download) to download and install VS Code.
+
+---
+
 ## 🚀 Contribution Guidelines
 
 Right now, this repo is my personal learning project. However:
