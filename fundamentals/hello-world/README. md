@@ -1,0 +1,105 @@
+# Hello World
+
+## 🧑‍💻 Code Breakdown
+
+---
+
+### C
+
+```C
+//Prints 'Hello World!' on the screen
+```
+> This is a comment. It simply explains what the program does and is ignored when the program runs.
+
+```C
+#include <stdio>
+```
+> This is called a pre-processor directive and what it does it loads the file 'stdio.h' into the program.
+> The program needs to import this file in order to use the function 'printf'.
+
+```C
+int main()
+'''
+> This is the entry point of the program (you will notice that all the other languages, except Python, have 'main' or 'Main' somewhere in the code.
+> This is a function (we will discuss what these are in detail later). For now, it suffices to know that a function:
+- completes a task
+- display something on the screen and/or
+- return a value (sometimes it doesn't)
+> 'int' stands for integer, which is basically the type of value to be returned by the function 'main'.
+
+```C
+{
+```
+> This is the opening brace of the body of the function ('main' in this case)
+
+'''C
+printf("Hello World!");
+'''
+> 'printf' is a function predefined in 'stdio', which basically takes text enclosed in double quotes and prints it on the screen.
+
+'''C
+return 0;
+'''
+> This is the exit point of the function 'main' and 0 means that the program ran successfully (no errors).
+> if a nonzero number is returned by main, it means that the program encounterd errors.
+
+```C
+}
+'''
+> This is the closing brace of the body of the function ('main' in this case).
+
+Note: all statements in C must end with a semicolon (;).
+
+---
+
+## 📖 Concept
+
+The "Hello World" program is the simplest example in any language. It demonstrates:
+- The basic syntax of the language.
+- How to compile and/or run a program.
+- How to output text to the screen.
+- How to document code using comments.
+- How to import predefined code into a program.
+
+This is a classic starting point for learning any programming language or understanding how the build/run process works.
+
+---
+
+## 📝 Implementations
+
+| Language | File             | How to Run                                  |
+|----------|------------------|---------------------------------------------|
+| C        | `hello_world.c`  | `gcc hello_world.c -o hello && ./hello`    |
+| C++      | `hello_world.cpp`| `g++ hello_world.cpp -o hello && ./hello`  |
+| C#       | `hello_world.cs` | `dotnet new console -o HelloWorld` → Replace `Program.cs` → `dotnet run` |
+| Java     | `HelloWorld.java`| `javac HelloWorld.java && java HelloWorld` |
+| Python   | `hello_world.py` | `python hello_world.py`                    |
+
+---
+
+## 🔑 What I Learned
+
+- How each language structures its simplest program.
+- Differences in syntax, case sensitivity, and required boilerplate.
+- The basics of compiling or interpreting code in each environment.
+- How to set up a small program quickly in each language.
+
+---
+
+## 🚀 Next Steps
+
+After mastering Hello World, the next fundamentals to explore are:
+- Data types and variables.
+- Reading input from the user.
+- Conditional statements and loops.
+- Functions and methods.
+
+---
+
+## 📌 Notes
+
+- For Java, the filename **must match** the class name exactly (e.g., `HelloWorld.java` with `public class HelloWorld`).
+- For C#, using .NET CLI (`dotnet new console`) creates the recommended project structure for real-world work.
+- For compiled languages (C, C++, Java), remember to remove old executables or class files between builds to avoid confusion.
+
+---
