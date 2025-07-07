@@ -31,7 +31,7 @@ Remember: **Programming languages are merely tools** — it’s the underlying c
 This repository will cover topics including (but not limited to):
 
 - **Fundamentals**
-  - Hello World, Data Types, Input & Output, Conditional Execution, Loops, Functions and Methods
+  - Hello World, Data Types, Input & Output, Conditional Execution, Loops, Functions, and Methods
 - **Data Structures**
   - Arrays, Linked Lists, Stacks, Queues, Trees, Graphs
 - **Algorithms**
@@ -69,12 +69,13 @@ Concepts will be demonstrated in multiple programming languages to illustrate di
 
 Software required to run the code in this repo:
 
-- A C/C++ compiler: [mingw](https://sourceforge.net/projects/mingw/). Here is a [video](https://youtu.be/-KayVZq1a58?si=jrnrxd5KkpQH5LK5) on how to install MinGW.
+- A C/C++ compiler: [MinGW](https://sourceforge.net/projects/mingw/). Here is a [video](https://youtu.be/-KayVZq1a58?si=jrnrxd5KkpQH5LK5) on how to install MinGW.
+    - **Linux/macOS** users: GCC or Clang is typically preinstalled or available via your package manager (e.g., `sudo apt install build-essential` on Linux or `xcode-select --install` on macOS).
 - Java Development Kit: [JDK](https://www.oracle.com/java/technologies/downloads/#jdk24-windows). Here is a [video](https://youtu.be/fuXTyRRge3s?si=E5j7YxRx9p8DZXxV) on how to install the JDK.
 - .NET Software Development Kit (for C#): [.NET](https://dotnet.microsoft.com/en-us/download). Here is a [video](https://youtu.be/onxL5AohWXQ) on how to install the .NET SDK.
-- Python: [python](https://www.python.org/downloads). Here is a [video](https://youtu.be/NES0LRUFMBE?si=UbPPznJs536YZHjn) on how to install python.
+- Python: [Python](https://www.python.org/downloads). Here is a [video](https://youtu.be/NES0LRUFMBE?si=UbPPznJs536YZHjn) on how to install python.
 
-I recommend installing VS Code and the necessary extensions for C/C++, C#, Java, and Python. This will make it easier to view, edit, and run code on a single "unified" platform. Click [here](https://code.visualstudio.com/download) to download and install VS Code.
+> I recommend installing VS Code and the necessary extensions for C/C++, C#, Java, and Python. VS Code makes it easy to view, edit, and run code for multiple languages on a single, unified platform. Click [here](https://code.visualstudio.com/download) to download and install VS Code.
 
 ---
 
