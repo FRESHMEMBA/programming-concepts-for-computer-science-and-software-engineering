@@ -246,7 +246,7 @@ This is a classic starting point for learning any programming language or unders
 | C++      | `HelloWorld.cpp`| `g++ HelloWorld.cpp -o hello_cpp && ./hello_cpp`  |
 | C#       | `HelloWorld.cs` | `dotnet new console -o HelloWorld` → Replace `Program.cs` → `dotnet run` |
 | Java     | `HelloWorld.java`| `javac HelloWorld.java && java HelloWorld` |
-| Python   | `HelloWorld.py` | `python hello_world.py`                    |
+| Python   | `HelloWorld.py` | `python HelloWorld.py`                    |
 
 ---
 
