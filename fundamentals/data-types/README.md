@@ -102,5 +102,42 @@ A **character** represents a single symbol, such as `'A'`, `'9'`, `'#'`, or `'z'
 |----------|---------|-----------|----------------------------------------|
 | C/C++    | `char`  | 1 byte    | ASCII by default; `wchar_t` for wide Unicode chars |
 | Java     | `char`  | 2 bytes   | Uses UTF-16 (supports full Unicode)    |
-| C#       | `char`  | 2 bytes   | Unicode by default (UTF-16)            |# Data Types
+| C#       | `char`  | 2 bytes   | Unicode by default (UTF-16)            |
+| Python   | `str` (1-char) | dynamic | Python doesn't have a separate `char`; uses 1-length strings |
 
+### 🔹 Strings
+
+A **string** is a sequence of characters. It’s one of the most commonly used data types in programming.
+
+| Language | Type/Keyword | Notes |
+|----------|--------------|-------|
+| C        | `char[]` or `char *` | Strings are arrays of characters, usually null-terminated |
+| C++      | `std::string` | Provided by the C++ Standard Library |
+| Java     | `String`      | Immutable; part of the standard library |
+| C#       | `string` or `String` | Immutable; built-in reference type |
+| Python   | `str`         | Highly flexible and powerful |
+
+> ✅ Strings are usually treated as objects in high-level languages (C++, Java, C#, Python), while in C they are just arrays of characters.
+
+## 🔁 Boolean Data Types
+
+The `boolean` type represents two values: `true` and `false`. These are used in logic, conditionals, and loops.
+
+| Language | Keyword | Size       | Notes                           |
+|----------|---------|------------|---------------------------------|
+| C        | `_Bool` or `bool` (from `<stdbool.h>`) | 1 byte     | Introduced in C99 |
+| C++      | `bool`  | 1 byte     | Standard since C++98            |
+| Java     | `boolean` | JVM-dependent | Can only be `true` or `false` |
+| C#       | `bool`  | 1 byte     | Strictly typed                  |
+| Python   | `bool`  | dynamic    | Subclass of `int` (True=1, False=0) |
+
+---
+
+## 📍 Other Data Types
+
+There are other important types we’ll look at separately:
+
+- **Pointers**: Used in C and C++ to store memory addresses and enable powerful techniques like dynamic memory allocation and data structures.
+- **Enumerations (Enums)**: User-defined types that assign names to constant integral values — great for making code readable and self-explanatory.
+
+We'll explore these in detail in dedicated sections.
