@@ -1,6 +1,11 @@
 # EXERCISES
 
-Write a program that prints `Hello, World!`followed by the name of the language used on the next line.
+Write a program that prints `Hello, World!`followed by the name of the language used on the next line:
+```
+Hello, World
+This is {language}!
+```
+where language represents the programming language used to write the program.
 
 Output:
 
