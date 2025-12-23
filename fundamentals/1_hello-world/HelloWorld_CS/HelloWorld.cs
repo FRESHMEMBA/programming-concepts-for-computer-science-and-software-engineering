@@ -1,5 +1,5 @@
 //Prints 'Hello World!' on the screen
-using System.Console;
+using System;
 
 namespace HelloWorld
 {

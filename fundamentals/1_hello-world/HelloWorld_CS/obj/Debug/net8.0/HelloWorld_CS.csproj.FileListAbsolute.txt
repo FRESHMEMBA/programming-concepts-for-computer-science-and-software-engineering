@@ -1,0 +1,15 @@
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/bin/Debug/net8.0/HelloWorld_CS
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/bin/Debug/net8.0/HelloWorld_CS.deps.json
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/bin/Debug/net8.0/HelloWorld_CS.runtimeconfig.json
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/bin/Debug/net8.0/HelloWorld_CS.dll
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/bin/Debug/net8.0/HelloWorld_CS.pdb
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.GeneratedMSBuildEditorConfig.editorconfig
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.AssemblyInfoInputs.cache
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.AssemblyInfo.cs
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.csproj.CoreCompileInputs.cache
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.sourcelink.json
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.dll
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/refint/HelloWorld_CS.dll
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.pdb
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/HelloWorld_CS.genruntimeconfig.cache
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/1_hello-world/HelloWorld_CS/obj/Debug/net8.0/ref/HelloWorld_CS.dll
