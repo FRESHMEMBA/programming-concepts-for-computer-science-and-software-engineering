@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/2_data-types/DataTypes_CS/DataTypes_CS.csproj": {}
+  },
+  "projects": {
+    "/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/2_data-types/DataTypes_CS/DataTypes_CS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/2_data-types/DataTypes_CS/DataTypes_CS.csproj",
+        "projectName": "DataTypes_CS",
+        "projectPath": "/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/2_data-types/DataTypes_CS/DataTypes_CS.csproj",
+        "packagesPath": "/home/muna/.nuget/packages/",
+        "outputPath": "/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/2_data-types/DataTypes_CS/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/muna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
