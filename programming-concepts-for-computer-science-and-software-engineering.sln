@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fundamentals", "fundamentals", "{0BCF7000-DB39-CB0A-397E-A81AB03E1EC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_data-types", "2_data-types", "{A13633B2-A93D-84CE-5B08-5D557E16B711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes_CS", "fundamentals\2_data-types\DataTypes_CS\DataTypes_CS.csproj", "{4DD1CAEA-FAAC-F26E-2FAF-C3FF746E4D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_hello-world", "1_hello-world", "{FD3AECC1-2856-A2CE-E133-B474BF305522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_CS", "fundamentals\1_hello-world\HelloWorld_CS\HelloWorld_CS.csproj", "{3C72E4B4-E25B-4E96-2B98-5E983406B156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD1CAEA-FAAC-F26E-2FAF-C3FF746E4D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD1CAEA-FAAC-F26E-2FAF-C3FF746E4D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD1CAEA-FAAC-F26E-2FAF-C3FF746E4D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD1CAEA-FAAC-F26E-2FAF-C3FF746E4D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C72E4B4-E25B-4E96-2B98-5E983406B156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C72E4B4-E25B-4E96-2B98-5E983406B156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C72E4B4-E25B-4E96-2B98-5E983406B156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C72E4B4-E25B-4E96-2B98-5E983406B156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A13633B2-A93D-84CE-5B08-5D557E16B711} = {0BCF7000-DB39-CB0A-397E-A81AB03E1EC1}
+		{4DD1CAEA-FAAC-F26E-2FAF-C3FF746E4D57} = {A13633B2-A93D-84CE-5B08-5D557E16B711}
+		{FD3AECC1-2856-A2CE-E133-B474BF305522} = {0BCF7000-DB39-CB0A-397E-A81AB03E1EC1}
+		{3C72E4B4-E25B-4E96-2B98-5E983406B156} = {FD3AECC1-2856-A2CE-E133-B474BF305522}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F873806-FDD0-4877-A4B6-5965DA4C5351}
+	EndGlobalSection
+EndGlobal
