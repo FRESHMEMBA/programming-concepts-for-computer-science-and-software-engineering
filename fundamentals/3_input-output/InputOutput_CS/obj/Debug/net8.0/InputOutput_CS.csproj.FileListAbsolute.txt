@@ -1,0 +1,15 @@
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.GeneratedMSBuildEditorConfig.editorconfig
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.AssemblyInfoInputs.cache
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.AssemblyInfo.cs
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.csproj.CoreCompileInputs.cache
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.sourcelink.json
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/bin/Debug/net8.0/InputOutput_CS
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/bin/Debug/net8.0/InputOutput_CS.deps.json
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/bin/Debug/net8.0/InputOutput_CS.runtimeconfig.json
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/bin/Debug/net8.0/InputOutput_CS.dll
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/bin/Debug/net8.0/InputOutput_CS.pdb
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.dll
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/refint/InputOutput_CS.dll
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.pdb
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/InputOutput_CS.genruntimeconfig.cache
+/home/muna/FRESHMEMBA/programming-concepts-for-computer-science-and-software-engineering/fundamentals/3_input-output/InputOutput_CS/obj/Debug/net8.0/ref/InputOutput_CS.dll
